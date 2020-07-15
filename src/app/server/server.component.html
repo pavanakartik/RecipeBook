@@ -32,3 +32,17 @@
     <hr>
     <p>Server Name: this is the new server name :  {{serverName}}</p>
 </div>
+
+<hr>
+<p>Two Way Binding</p>
+<div>
+    <label>Server Name with Twoway Binding</label>
+    <hr>
+    <input type="text" 
+    class="form-control" 
+    [(ngModel)]="serverName"
+    >
+
+    <hr>
+    <p>Server Name: this is the new server name :  {{serverName}}</p>
+</div>
